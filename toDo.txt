@@ -1,8 +1,0 @@
-1/ prolific => More => Download Demographic Data
-2/ lancer getProlificInfos.m
-3/ adapter en fonction des messages des participants et vérifier que toutes les datas sont cohérentes, si non adapter en fonction
-4/ trier les participants par 'time_taken' sur Prolific et accepter/refuser grâce au fichier généré
-
-
-
-1/ rajouter la colonne alarm_subBlock dans mon fichier récap pour analyse avec Véro
