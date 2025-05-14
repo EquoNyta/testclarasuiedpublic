@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html style="height: 100%;" lang="en">
+  <head>
+    <title>Influence of sound lateralization in multitalkers situations</title>
+    <meta charset="UTF-8">
+
+    <!-- jspych library -->
+    <link href="jspsych-6.1.0/css/myjspsych.css" rel="stylesheet" type="text/css"></link>
+    <script src="jspsych-6.1.0/jspsych.js"></script>
+    <script src="jspsych-6.1.0/plugins/jspsych-html-keyboard-response.js"></script>
+    <script src="jspsych-6.1.0/plugins/jspsych-image-keyboard-response.js"></script>
+    <script src="jspsych-6.1.0/plugins/jspsych-external-html.js"></script>
+    <script src="jspsych-6.1.0/plugins/jspsych-survey-html-form.js"></script>
+    <script src="jspsych-6.1.0/plugins/jspsych-survey-text.js"></script>
+    <script src="jspsych-6.1.0/plugins/jspsych-instructions.js"></script>
+    <script src="jspsych-6.1.0/plugins/jspsych-call-function.js"></script>
+    
+    <!-- to send the results to pavlovia -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js" integrity="sha512-pXR0JHbYm9+EGib6xR/w+uYs/u2V84ofPrBpkgLYyKvhZYJtUUvKSy1pgi8tJZAacsPwgf1kbhI4zwgu8OKOqA==" crossorigin="anonymous"></script> -->
+    <script src="src/jquery-2-2-0-min.js"></script>
+    <script type="text/javascript" src="jspsych-6.1.0/jspsych-pavlovia-2020.2-filter.js"></script>
+
+    <!-- Import what the headphone check procedure needs -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script> -->
+    <script src="src/jquery-3-6-0-min.js"></script>
+    <script type="text/javascript" src="src/HeadphoneCheck.js"></script>
+
+    <!-- lodash for very interesting functions like shuffle or range -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous"></script> -->
+    <script src="src/lodash.min.js"></script>
+
+    <!-- the functions I wrote for this experiment -->
+    <script src="src/musthave.js"></script>
+    <script src="src/arrayFun.js"></script>
+    <script src="src/class.js"></script>
+    <script src="src/experimentContent.js"></script>
+    <script src="src/button_box.js"></script>
+    <script src="src/processings.js"></script>
+    <script src="src/audiogramTrialGen.js"></script>
+    
+    <!-- My own plugins -->
+    <script src="jspsych-6.1.0/myownPlugins/jspsych-audio-button-response-crm-nback.js"></script>
+    <script src="jspsych-6.1.0/myownPlugins/jspsych-audio-keyboard-response-audiogram.js"></script>
+    <script src="jspsych-6.1.0/myownPlugins/jspsych-html-button-response-alarmQuestion.js"></script>
+    <script src="jspsych-6.1.0/myownPlugins/jspsych-debrief.js"></script>
+    
+
+  </head>
+  <body tabindex="0" class="jspsych-display-element" style="margin: 0px; height: 100%; width: 100%">
+  </body>
+  <script src="main.js" type="text/javascript"></script>
+</html>
